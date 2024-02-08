@@ -17,6 +17,7 @@
 
 body{
     padding: 0 !important;
+    margin-top: 100px;
 }
 
 header{
@@ -26,6 +27,7 @@ header{
 
 header i:hover{
     cursor: pointer;
+    color: grey;
 }
 
 header ul{
@@ -34,4 +36,14 @@ header ul{
 
 header ul li a:hover{
     filter: brightness(.7);
+}
+
+/* JUMBOTRON */
+.jumbo{
+    background-color: var(--bg-green);
+    height: 700px;
+}
+
+.jumbo .container-sm{
+    height: 85%;
 }
