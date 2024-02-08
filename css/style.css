@@ -171,3 +171,13 @@ header ul li a:hover{
 .contact .container .row form .button a:hover{
     filter: brightness(.8);
 }
+
+/* footer */
+footer{
+    background-color: var(--secondary-blue);
+
+}
+
+footer .container-fluid{
+    background-color: var(--primary-blue);
+}
