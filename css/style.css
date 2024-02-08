@@ -1,0 +1,27 @@
+
+:root{
+    --primary-blue: #2C3E50;
+}
+
+/* [class^="container"]{
+    background-color: rgba(0, 128, 0, 0.3);
+    border: 1px solid black;
+} */
+
+.debug{
+    background: red;
+    border: 1px solid black;
+}
+
+body{
+    padding: 0 !important;
+}
+
+header{
+    background-color: var(--primary-blue);
+    height: 100px;
+}
+
+header i:hover{
+    cursor: pointer;
+}
