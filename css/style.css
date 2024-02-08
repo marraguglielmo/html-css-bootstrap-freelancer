@@ -36,17 +36,27 @@ body{
     margin-top: 100px;
 }
 
+h2{
+    color: var(--color-h2);
+}
+
 /* utils */
 
 .gm_pt-lg{
     padding-top: 5rem;
 }
 
+.gm_pb-lg{
+    padding-bottom: 5rem;
+}
+
 .gm_px-lg{
     padding: 0 6rem;
 }
 
-
+.star{
+    color: var(--color-icon);
+}
 
 header{
     background-color: var(--primary-blue);
@@ -79,12 +89,7 @@ header ul li a:hover{
 /* MAIN */
 
 /* portfolio */
-
-.portfolio .container-mdzs:first-child .star{
-    color: var(--color-icon);
-}
-
-.portfolio .container-md:first-child .star .line{
+.star .line{
     border-top: 5px solid var(--color-icon);
     border-radius: 20px;
 }
@@ -136,4 +141,33 @@ header ul li a:hover{
 
 .about .container .row .btn-dwn:hover > *{
     color: var(--bg-green) !important;
+}
+
+
+/* contact me */
+.contact form > *:not(:last-child){
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact form > *{
+    color: var(--color-icon);
+    font-weight: 600;
+}
+
+.contact .container .row form{
+    padding: 0; 
+}
+
+.contact .container .row form .button{
+    width: 80px;
+    height: 50px;
+}
+
+.contact .container .row form .button a{
+    background: var(--bg-green);
+}
+
+.contact .container .row form .button a:hover{
+    filter: brightness(.8);
 }
