@@ -36,6 +36,18 @@ body{
     margin-top: 100px;
 }
 
+/* utils */
+
+.gm_pt-lg{
+    padding-top: 5rem;
+}
+
+.gm_px-lg{
+    padding: 0 6rem;
+}
+
+
+
 header{
     background-color: var(--primary-blue);
     height: 100px;
@@ -73,7 +85,6 @@ header ul li a:hover{
 }
 
 .portfolio .container-md:first-child .star .line{
-    /* width: 50px; */
     border-top: 5px solid var(--color-icon);
     border-radius: 20px;
 }
@@ -102,6 +113,27 @@ header ul li a:hover{
     background: var(--bg-box-6);
 }
 
-.portfolio .container .row > *{
-    /* border: 1px solid black; */
+
+/* about */
+.about{
+    background-color: var(--bg-green);
+}
+
+.about .container-md:first-child .star .line{
+    border-top: 5px solid white;
+    border-radius: 20px;
+}
+
+.about .container .row .btn-dwn{
+    width: 150px;
+    height: 50px;
+}
+
+.about .container .row .btn-dwn:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.about .container .row .btn-dwn:hover > *{
+    color: var(--bg-green) !important;
 }
