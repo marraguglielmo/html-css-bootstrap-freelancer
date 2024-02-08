@@ -1,6 +1,8 @@
 
 :root{
     --primary-blue: #2C3E50;
+    --secondary-blue: #3A546D;
+    --bg-green: #1ABC9C;
 }
 
 /* [class^="container"]{
