@@ -175,7 +175,15 @@ header ul li a:hover{
 /* footer */
 footer{
     background-color: var(--secondary-blue);
+}
 
+footer .container .icons > *{
+    width: 60px;
+    height: 60px;
+}
+footer .container .icons > *:hover{
+    cursor: pointer;
+    background-color: var(--primary-blue);
 }
 
 footer .container-fluid{
