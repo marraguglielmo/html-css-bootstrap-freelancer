@@ -12,6 +12,8 @@
     --bg-box-4: #5081BA;
     --bg-box-5: #313CAC;
     --bg-box-6: #C4B1A3;
+    --color-h2: #333333;
+    --color-icon: #2C3E50;
 }
 
 /* [class^="container"]{
@@ -66,8 +68,14 @@ header ul li a:hover{
 
 /* portfolio */
 
-.portfolio .container .row .col{
-    
+.portfolio .container-mdzs:first-child .star{
+    color: var(--color-icon);
+}
+
+.portfolio .container-md:first-child .star .line{
+    /* width: 50px; */
+    border-top: 5px solid var(--color-icon);
+    border-radius: 20px;
 }
 
 .portfolio .container .row .col-12:nth-child(1) .box{
