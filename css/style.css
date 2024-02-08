@@ -1,8 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 
 :root{
     --primary-blue: #2C3E50;
     --secondary-blue: #3A546D;
     --bg-green: #1ABC9C;
+    --bg-box-1: #A45364;
+    --bg-box-2: #5EA0B2;
+    --bg-box-3: #1A1716;
+    --bg-box-4: #5081BA;
+    --bg-box-5: #AB8F32;
+    --bg-box-6: #C4B1A3z;
 }
 
 /* [class^="container"]{
@@ -13,6 +22,11 @@
 .debug{
     background: red;
     border: 1px solid black;
+}
+
+
+img{
+    max-width: 100%;
 }
 
 body{
@@ -46,4 +60,31 @@ header ul li a:hover{
 
 .jumbo .container-sm{
     height: 85%;
+}
+
+/* MAIN */
+
+/* portfolio */
+.portfolio .container  .row > :nth-child(1){
+    background: var(--bg-box-1);
+}
+
+.portfolio .container  .row > :nth-child(2){
+    background: var(--bg-box-2);
+}
+
+.portfolio .container  .row > :nth-child(3){
+    background: var(--bg-box-3);
+}
+
+.portfolio .container  .row > :nth-child(4){
+    background: var(--bg-box-4);
+}
+
+.portfolio .container  .row > :nth-child(5){
+    background: var(--bg-box-5);
+}
+
+.portfolio .container  .row > :nth-child(6){
+    background: var(--bg-box-6);
 }
