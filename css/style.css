@@ -25,3 +25,11 @@ header{
 header i:hover{
     cursor: pointer;
 }
+
+header ul{
+    margin: 0;
+}
+
+header ul li a:hover{
+    filter: brightness(.7);
+}
