@@ -49,7 +49,7 @@ h2{
 /* utils */
 
 .gm-container{
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -71,6 +71,7 @@ h2{
 }
 
 .line{
+    width: 8vw;
     border-top: 5px solid var(--color-icon);
     border-radius: 20px;
 }
@@ -111,6 +112,10 @@ header ul li a:hover{
 /* JUMBOTRON */
 .jumbo{
     background-color: var(--bg-green);
+}
+
+.jumbo img{
+    width: 300px;
 }
 
 /* MAIN */
