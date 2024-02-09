@@ -94,31 +94,6 @@ header ul li a:hover{
     border-radius: 20px;
 }
 
-.portfolio .container .row .col-12:nth-child(1) .box{
-    background: var(--bg-box-1);
-}
-
-.portfolio .container .row .col-12:nth-child(2) .box{
-    background: var(--bg-box-2);
-}
-
-.portfolio .container .row .col-12:nth-child(3) .box{
-    background: var(--bg-box-3);
-}
-
-.portfolio .container .row .col-12:nth-child(4) .box{
-    background: var(--bg-box-4);
-}
-
-.portfolio .container .row .col-12:nth-child(5) .box{
-    background: var(--bg-box-5);
-}
-
-.portfolio .container .row .col-12:nth-child(6) .box{
-    background: var(--bg-box-6);
-}
-
-
 /* about */
 .about{
     background-color: var(--bg-green);
@@ -155,6 +130,10 @@ header ul li a:hover{
     font-weight: 600;
 }
 
+.contact form > *:focus{
+    box-shadow: none;
+}
+
 .contact .container .row form{
     padding: 0; 
 }
@@ -180,6 +159,7 @@ footer{
 footer .container .icons > *{
     width: 60px;
     height: 60px;
+    min-width: 60px;
 }
 footer .container .icons > *:hover{
     cursor: pointer;
