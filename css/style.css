@@ -53,6 +53,11 @@ h2{
     margin: 0 auto;
 }
 
+.gm-container-lg{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .gm_pt-lg{
     padding-top: 5rem;
 }
