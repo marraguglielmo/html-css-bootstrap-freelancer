@@ -34,6 +34,12 @@ img{
 body{
     padding: 0 !important;
     margin-top: 100px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+section{
+    padding-top: 4.3rem;
+    padding-bottom: 4rem;
 }
 
 h2{
@@ -41,6 +47,11 @@ h2{
 }
 
 /* utils */
+
+.gm-container{
+    width: 60%;
+    margin: 0 auto;
+}
 
 .gm_pt-lg{
     padding-top: 5rem;
@@ -54,8 +65,24 @@ h2{
     padding: 0 6rem;
 }
 
+.line{
+    border-top: 5px solid var(--color-icon);
+    border-radius: 20px;
+}
+
 .star{
     color: var(--color-icon);
+}
+
+.about .line,
+.jumbo .line{
+    border-top: 5px solid white;
+    border-radius: 20px;
+}
+
+.about .star,
+.jumbo .star{
+    color: white;
 }
 
 header{
@@ -79,30 +106,15 @@ header ul li a:hover{
 /* JUMBOTRON */
 .jumbo{
     background-color: var(--bg-green);
-    height: 700px;
-}
-
-.jumbo .container-sm{
-    height: 85%;
 }
 
 /* MAIN */
-
-/* portfolio */
-.star .line{
-    border-top: 5px solid var(--color-icon);
-    border-radius: 20px;
-}
 
 /* about */
 .about{
     background-color: var(--bg-green);
 }
 
-.about .container-md:first-child .star .line{
-    border-top: 5px solid white;
-    border-radius: 20px;
-}
 
 .about .container .row .btn-dwn{
     width: 150px;
@@ -127,7 +139,6 @@ header ul li a:hover{
 
 .contact form > *{
     color: var(--color-icon);
-    font-weight: 600;
 }
 
 .contact form > *:focus{
